@@ -22,8 +22,6 @@ services:
     networks:
     - intnet
 
-  
-
 networks:
   intnet:
     driver: bridge
