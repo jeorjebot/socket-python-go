@@ -1,6 +1,6 @@
 # TCP Socket between Python and Go
 Simple program to perform a TCP connection on a socket between **Python** and **Go**.
-Both server and client application are running inside separate **docker containers**.
+Both server and client applications are running inside separate **docker containers**.
 
 ## Architecture
 - **Python server** -> waiting on server:8000
