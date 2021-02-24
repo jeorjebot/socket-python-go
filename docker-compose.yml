@@ -1,0 +1,33 @@
+version: "3.2"
+
+services:
+  server:
+    build:
+      context: server-python
+    image: server_python
+    networks:
+    - intnet
+
+  client_python:
+    build:
+      context: client-python
+    image: client_python
+    networks:
+    - intnet
+
+  client_go:
+    build:
+      context: client-go
+    image: client_go
+    networks:
+    - intnet
+
+  
+
+networks:
+  intnet:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.200.0/24

@@ -1,0 +1,5 @@
+# settings
+.vscode
+
+# mac filesystem
+.DS_Store
