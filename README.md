@@ -8,6 +8,7 @@ Both server and client applications are running inside separate **docker contain
 - **Go client** -> wait 5s, send and receive a message, repeat 2 times
 
 ## Start the docker compose
+Clone the repository, and then inside it run:
 ```console
 docker-compose -p project up --build
 ```
